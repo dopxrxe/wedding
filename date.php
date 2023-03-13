@@ -27,11 +27,9 @@ $c = floor($sisa / 60);
 $sisa = $sisa % 60;
 $d = floor($sisa / 1);
  
-echo "
-    <p class='d-flex flex-column'>".$a."<span>hari</span></p>
-    <p class='d-flex flex-column'>".$b."<span>jam</span></p>
-    <p class='d-flex flex-column'>".$c."<span>menit</span></p>
-    <p class='d-flex flex-column'>".$d."<span>detik</span></p>
-";
+echo "<p class='d-flex flex-column'>".$a."<span>hari</span></p>
+<p class='d-flex flex-column'>".$b."<span>jam</span></p>
+<p class='d-flex flex-column'>".$c."<span>menit</span></p>
+<p class='d-flex flex-column'>".$d."<span>detik</span></p>";
  
 ?>
